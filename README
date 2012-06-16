@@ -1,0 +1,11 @@
+Simple web dashboard for codahale/metrics https://github.com/codahale/metrics
+
+This library does not require a web server or a servlet container. It comes with a small embedded HTTP server.
+
+Usage:
+
+// The HTTP port.
+int port = ...;
+// Max history of metrics values to keep 
+int maxItems = ...;
+MetricsDashboard dashboard = new MetricsDashboard(port, maxItems);
