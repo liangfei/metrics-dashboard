@@ -1,6 +1,7 @@
 Simple web dashboard for codahale/metrics https://github.com/codahale/metrics
 
 This library does not require a web server or a servlet container. It comes with a small embedded HTTP server.
+TODO: move most of the logic from the server side to the client side
 
 Usage:
 
